@@ -52,7 +52,8 @@
 
                         <button class="btn btn-success btn-block">Register</button>
                         <div style="padding-top: 10px;">
-                            <a href=""><label style="cursor: pointer;">Forgot Password</label></a> <a href="/users/login" class="pull-right"><label style="cursor: pointer;">Login</label></a>
+                           <!-- <a href=""><label style="cursor: pointer;">Forgot Password</label></a>-->
+                            <a href="users/login" class="pull-right"><label style="cursor: pointer;">Login</label></a>
                         </div>
                     </fieldset>
                     <?php echo form_close(); ?>
